@@ -48,8 +48,8 @@ Class names should be simple and descriptive. Use whole words-avoid acronyms and
 
 ```
 * Variables: Variable names should start with lower case and any subsequent word should be capitalized. Though $ and _ are 
-* allowed to be used to start a variabe, it should be limited to framework standards. Variable names should be meaningful
-* so that any developer knows what that variable represents.
+ allowed to be used to start a variabe, it should be limited to framework standards. Variable names should be meaningful
+ so that any developer knows what that variable represents.
 
 ``` 
     String firstName; 
@@ -103,7 +103,7 @@ of the beggining statement
 * Line size should be of a maximum of 80 - 90 characters so that it  is well handled by most IDEs.
 
 * Whenever a line has to be broken, try to break it when chunks of code end (after a ',','(',')','{','}') or before a large
-* statement. Subsequent lines should have 2 more tabs of indentation than the first line.
+ statement. Subsequent lines should have 2 more tabs of indentation than the first line.
 
 ```
 private static synchronized horkingLongMethodName(int anArg,
