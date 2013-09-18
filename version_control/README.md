@@ -1,3 +1,3 @@
-Version Controll
-================
+Version Control
+===============
 **by carlos@technogi**  
