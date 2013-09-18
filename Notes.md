@@ -1,0 +1,17 @@
+oner en raiz el global.md (con los estandares genéricos)
+- Todos los proyectos deberán tener un README.md en raiz
+  - Responsable (correo)
+  - Desarrolladores (correo)
+  - Nombre del Proyecto
+  - Fecha de inicio
+  - copyright
+- Cuando se haga un commit hacer referencia a:
+  - story, ticket, issue o bug que se ataca
+  - Icluir descripción del cambio
+  - Evitar hacer commit de multiples tareas
+  - Hacer commit al final del día
+  - Hacer update al principio del dia y antes de un commit
+  - Si se sube código incompleto hacer branches!!!
+  - En Alphas, BEtas, RC y Production no subir cambios al master que no pasen las pruebas
+  - TODO el código dberá tener sus pruebas (TDD)
+    - El desarrollador que suba código es responsable de subir las pruebas del mismo
