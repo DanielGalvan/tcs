@@ -25,3 +25,25 @@ And default shared folder is not mounted
 * vagrant ssh
 * sudo rm -f /etc/udev/rules.d/70-persistent-net.rule
 * vagrant reload
+
+
+## VG2
+
+### Components
+
+
+* Vagrant 1.3
+* Any OS
+* Unix host
+
+### Description
+
+When you need to give more permissions to the default shared folder.
+
+### Solution:
+
+* On VagrantFile add the line: 
+
+```
+config.vm.synced_folder ".", "/vagrant", :extra => "dmode=777,fmode=666"
+```
